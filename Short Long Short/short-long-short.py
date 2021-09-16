@@ -1,4 +1,6 @@
 '''
+Kata 50654ddff44f800200000007: Short Long Short
+By:
 OBJECTIVE: given two strings, return the longer string
 sandwiched between two copies of the shorter string. If
 either string is empty, return two copies of the none-
