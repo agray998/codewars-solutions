@@ -2,6 +2,8 @@
 -- By: Ira
 -- OBJECTIVE: Fix the given code to create a variable 'name' with the value "codewa.rs"
 
+module Codewars.Kata.Basic where
+
 a = "code"
 b = "wa.rs"
 name = a ++ b

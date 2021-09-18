@@ -5,6 +5,8 @@
 -- string with any exclamation marks removed from the end. Non-
 -- terminal exclamation marks should not be removed
 
+module Kata where
+
 remove :: String -> String
 remove str | last str /= '!' = str
            | otherwise = remove (init str)

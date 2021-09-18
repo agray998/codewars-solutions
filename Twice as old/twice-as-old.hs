@@ -4,5 +4,7 @@
 -- calculate how many years it has been since/will be
 -- before the father is twice as old as the son
 
+module TwiceAsOld where
+
 twice_as_old :: Int -> Int -> Int
 twice_as_old f s = abs(f - (s * 2))

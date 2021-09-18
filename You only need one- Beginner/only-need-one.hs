@@ -3,6 +3,8 @@
 -- OBJECTIVE: Complete the function to return true if a
 -- given element occurs at least once in a given sequence
 
+module Need where
+
 check :: Eq a => [a] -> a -> Bool
 check [] _ = False
 check (x:xs) y | x == y = True

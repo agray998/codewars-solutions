@@ -2,5 +2,7 @@
 -- By: dukeofgarda
 -- OBJECTIVE: Complete the function to return the smallest integer from a given array
 
+module CodeWars.SmallestInteger where
+
 findSmallestInteger :: [Int] -> Int
 findSmallestInteger = minimum

@@ -5,5 +5,7 @@
 -- multiply a b = do
 --   return $ a * b
 
+module Multiply.Bug.Fix (multiply) where
+
 multiply :: Int -> Int -> Int
 multiply = (*)

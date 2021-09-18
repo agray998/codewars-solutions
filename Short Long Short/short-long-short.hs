@@ -3,6 +3,8 @@
 -- OBJECTIVE: given two strings, return the longer string
 -- sandwiched between two copies of the shorter string.
 
+module ShortLongShort where
+
 import Data.List (sortOn)
 sortByLen = sortOn length
 shortLongShort :: String -> String -> String

@@ -3,6 +3,8 @@
 -- OBJECTIVE: Fix the given code to return one message if name == Johnny,
 -- and an alternative message otherwise
 
+module Codewars.Kata.Jenny where
+
 greet :: String -> String
 greet name | name == "Johnny" = "Hello, my love!"
            | otherwise = "Hello, " ++ name ++ "!"
