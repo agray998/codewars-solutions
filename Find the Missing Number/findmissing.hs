@@ -5,9 +5,7 @@
 
 module MissingNumber where
 import Data.List
-
-indexOf x xs a | x == head xs = a
-               | otherwise = indexOf x (tail xs) (a + 1)
+import Data.Maybe
 
 missingNo :: [Int] -> Int
-missingNo xs = indexOf False [elem i xs | i <- [0..length xs]] 0
+missingNo xs = fromJust (elemIndex False [elem i xs | i <- [0..length xs]])
