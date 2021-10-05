@@ -5,7 +5,7 @@ OBJECTIVE: Given 3 side lengths, determine whether
 they are able to form a triangle with non-zero area.
 */
 
-class TriangleTester{
+public class TriangleTester{
     public static boolean isTriangle(int a, int b, int c){
       return a + b > c && a + c > b && b + c > a;
     }
